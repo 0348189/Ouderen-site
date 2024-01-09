@@ -1,0 +1,118 @@
+/* Onze sponsors sectie */
+
+html {
+  margin-top: 4%;
+}
+
+@media (max-width: 1240px) {
+  html {
+      margin-top: 10%;
+  }
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.sponsortitel {
+  display: flex;
+  justify-content: center;
+  color: #55d6aa;
+}
+
+
+.sponsorlijst,
+form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.ondertitellijn {
+  max-width: 75%;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(96, 96, 96);
+  text-align: center;
+  font-size: 300%;
+}
+
+/* Sponsor worden? sectie */
+
+.sponsorworden {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  background-color: #55d6aa;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sponsorworden > h1 {
+  font-size: 300%;
+  color: white;
+}
+
+.sponsorworden > p {
+  max-width: 50%;
+  color: white;
+}
+
+.sponsorcontact > h2 {
+  color: white;
+}
+
+.sponsorlijst > img {
+  width: 50%;
+  height: 50%;
+}
+
+form input[type="submit"] {
+  background-color: red;
+  color: white;
+  border-color: red;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+form input[type="submit"]:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+.sponsor {
+  position: relative;
+}
+
+.sponsor .plaatje {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+}
+
+.sponsor form {
+  position: absolute;
+  bottom: 0;
+}

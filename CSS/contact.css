@@ -1,0 +1,63 @@
+
+
+html {
+    margin-top: 4%;
+}
+
+@media (max-width: 1240px) {
+    html {
+        margin-top: 10%;
+    }
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+.contacttitel {
+    display: flex;
+    justify-content: center;
+    color: #55d6aa;
+}
+
+.ondertitellijn {
+    max-width: 75%;
+}
+
+/*Contact formulier */
+
+.mail-contact {
+    display: flex;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+/*Direct contact */
+
+.directcontact {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    background-color: #55d6aa;
+    align-items: center;
+    flex-direction: column;
+}
+
+.directcontact>h1 {
+    font-size: 300%;
+    color: white;
+}
+
+.contactgegevens>h2 {
+    color: white
+}
+
+h3 {
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,126 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+  margin-top: 4%;
+}
+
+@media (max-width: 1240px) {
+  html {
+      margin-top: 10%;
+      width: fit-content;
+  }
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px; 
+}
+
+.banner img {
+    width: auto;
+    height: auto;
+}
+
+.bov {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.ond {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.clpos {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.nwspos { 
+  display: flex;
+  flex-direction: row;
+  justify-content: right; 
+}
+
+.nwsdiv {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-left:10px;
+  padding-right: 10px;
+  width: 500px;
+  margin: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+  border-radius: 25px;
+  background-color: #55d6aa;
+  color: white ;  
+}
+
+  .infokbo { 
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 130%;
+  margin-left:50px;
+  width: auto;
+}
+
+.infokbo h1 { 
+  text-align: center;
+}
+
+.infokbo:nth-child(1) {
+  margin-top: 25px;
+  margin-right: 50px;
+}
+
+
+.calender {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 450px;
+  margin-left: 45px;
+  border-radius: 25px;
+  background-color: #55d6aa;
+  color: white;
+  font-size: 130%;
+}
+  
+a {
+  color: white;
+}
+
+.leden-voordelen{
+  font-size: 130%;
+  text-align: center;
+}
+
+.leden-voordelen p {
+  text-align: center;
+  margin: auto;
+}
+
+
+.calenderbox {
+  margin-bottom: 5px; 
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  padding: 5px;
+}

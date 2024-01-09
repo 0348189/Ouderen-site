@@ -1,0 +1,60 @@
+html {
+    margin-top: 4%;
+}
+
+@media (max-width: 1240px) {
+    html {
+        margin-top: 10%;
+    }
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.content p {
+    font-size: larger;
+    margin: 5px;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+}
+
+.left-content h1 {
+    text-align: center;
+}
+
+.left-content img {
+    max-width: 100%;
+    width: 700px;
+    height: 450px;
+    object-fit: cover;
+    margin: auto;
+}
+
+.right-content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 10px;
+    margin-top: 70px;
+}
+
+.inschrijven {
+    background-color: #9ad6c2;
+    text-align: center;
+}
+
+.al-ingeschreven {
+    padding: 5px;
+    font-size: larger;
+    background-color: #55d6aa;
+    text-align: center;
+    margin-bottom: 25px;
+}
